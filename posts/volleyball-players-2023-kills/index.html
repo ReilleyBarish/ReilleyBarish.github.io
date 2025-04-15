@@ -194,7 +194,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Anyone would guess that there is a huge difference between a freshman player and a senior player. One has had four years at this level to gain experience, practice, learn, etc. While a freshman has had no experience, less practice, not much time playing together as a team. I mean people transfer in early Spring, Nebraska does it all the time, but you can have a well oiled machine one year and the next feel off the rails.</p>
 <p>It leads us back to the question, are freshman or seniors better at killing the ball?</p>
 <p>To do that lets look at some numbers and data sets.</p>
-<p>The data is Sports Data Files of the 2023 NCAA volleyball season courtesy of Professor Matt Waite. https://mattwaite.github.io/sportsdatafiles/ncaa_womens_volleyball_playerstats_2023. NCAA combined all the player stats from the 2023 season into one place for us to access them. We are only going to focus on offense and specifically kill metrics.</p>
+<p>The data is Sports Data Files of the 2023 NCAA volleyball season courtesy of Professor Matt Waite.</p>
+<p>https://mattwaite.github.io/sportsdatafiles/ncaa_womens_volleyball_playerstats_2023.</p>
+<p>NCAA combined all the player stats from the 2023 season into one place for us to access them. We are only going to focus on offense and specifically kill metrics.</p>
 <p>This includes kills, sets played, total attacks, errors and hitting percentage.</p>
 <p>Let’s start off with a look at players kills and how it compares to the sets played. It is important to look at it by year, as that is the question we are trying to have answered.</p>
 <div class="cell">
@@ -407,7 +409,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(</span>
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">data =</span> sophomore,</span>
 <span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x =</span> s, <span class="at">y =</span> kills, <span class="at">size =</span> yr),</span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"pink"</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"purple"</span></span>
 <span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
 <span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>   <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="fl">68.59631</span>) <span class="sc">+</span></span>
 <span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>   <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="fl">86.94779</span>) <span class="sc">+</span></span>
