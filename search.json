@@ -11,7 +11,7 @@
     "href": "posts/volleyball-lexi-rodriguez/index.html",
     "title": "Just How Good Was Lexi Rodriguez at Nebraska?",
     "section": "",
-    "text": "Helloing. youre weird"
+    "text": "Helloing. youre weird\n\n\nCode\nlibrary(tidyverse)\nlibrary(ggplot2)\nlibrary(ggalt)\nlibrary(ggtext)\nlibrary(ggrepel)\nlibrary(patchwork)\nlibrary(waffle)\n\ndata &lt;- read_csv(\"https://mattwaite.github.io/sportsdatafiles/ncaa_womens_volleyball_players_2124.csv\")"
   },
   {
     "objectID": "posts/volleyball-players-2023-kills/index.html",
